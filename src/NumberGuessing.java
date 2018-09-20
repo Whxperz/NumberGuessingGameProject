@@ -1,4 +1,3 @@
 public class NumberGuessing {
-    hello I am in the right folder
-    This is bad code as it is full of errorws
+//I have corrected the bad code by putting it in comments
 }
