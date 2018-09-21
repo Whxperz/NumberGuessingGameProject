@@ -13,19 +13,19 @@ public class NumberGuessing {
         pickedNumber = (int)(Math.random()*100);
 
    //Code
-
+        System.out.println(pickedNumber);
         System.out.println("Pick a number");
         int guess = keyboard.nextInt();
         if(guess>pickedNumber){
             System.out.println("Too high, guess again");
             guess = keyboard.nextInt();
         }
-        else if(guess<=pickedNumber) {
+        else if(guess<pickedNumber) {
             System.out.println("Too low, guess again");
             guess = keyboard.nextInt();
         }
         else if(guess==pickedNumber) {
-            System.out.println("Good job! The number is " + guess);
+            System.out.println("Good job! The number is " + guess + "!");
         }
 
 
