@@ -13,7 +13,6 @@ public class NumberGuessing {
         pickedNumber = (int)(Math.random()*100);
 
         //Code
-        System.out.println(pickedNumber);
         System.out.println("Pick a number");
         int guess;
         do {
